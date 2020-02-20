@@ -1,0 +1,136 @@
+@media (max-width: 992px) {
+    .about__title{
+        margin-bottom: 40px;
+    }
+
+    .about__hr_2{
+        margin: 40px 0;
+    }
+
+    .mt-92{
+        margin-top: 0;
+    }
+    .col-md-0{
+        display: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+  .blog__img_pink{
+      margin-top: 13px;
+  }
+  .head__content{
+      justify-content: space-between;
+  }
+  .menu--2{
+      width: auto !important;
+  }
+  .menu__item--2{
+      margin-right: 20px !important;
+  }
+    .mobile__btn{
+        display: flex !important;
+        z-index: 23 !important;
+    }
+    .show__mobile__btn span{
+        background: transparent !important;
+        z-index: 22 !important;
+    }
+    .show__mobile__btn span:before,
+    .show__mobile__btn span:after{
+        top: 0 !important;
+        bottom: 0 !important;
+        margin: auto;
+        z-index: 23 !important;
+    }
+    .show__mobile__btn span:before{
+        transform: rotate(45deg);
+        transition: .3s;
+    }
+    .show__mobile__btn span:after{
+        transform: rotate(-45deg);
+        transition: .3s;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        background: rgba(210, 225, 255, 0.52);
+        height: 100%;
+        width: 100% !important;
+        top: 0;
+        left: -100%;
+        transition: .6s;
+        z-index: 20;
+    }
+    .show__menu{
+        left: 0;
+        z-index: 21;
+        padding: 100px;
+    }
+    .menu__item{
+        font-size: 30px !important;
+    }
+    .menu__item--blue{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    footer{
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero-owl .owl-dots{
+        bottom: -12vh ;
+    }
+    .logo__image{
+        width: 60% !important;
+    }
+    .col-md-0{
+        display: block !important;
+
+    }
+    .about__hr_1{
+        margin:  40px 0;
+    }
+    .about__hr_3{
+        margin:  40px 0;
+    }
+    .about__btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .stats__content_bl{
+        padding: 70px 0 !important;
+        align-items: center !important;
+    }
+    .stats__content_wh{
+        padding: 70px 0 !important;
+        align-items: center !important;
+    }
+    .blog__images{
+        text-align: center;
+    }
+    .blog__btn{
+        display: inline-block;
+    }
+    .blog__img_big{
+        float: none !important;
+    }
+    .blog__img_blue{
+        margin-left: 0 !important;
+    }
+    .blog__img_pink{
+        margin-left: 0 !important;
+        margin-top: 13px;
+    }
+    .news__btn{
+        margin-top: 20px;
+    }
+    #news .w-100 .col-12{
+        padding-left: 0 !important;
+    }
+}
