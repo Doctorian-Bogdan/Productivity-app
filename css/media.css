@@ -31,6 +31,9 @@
         display: flex !important;
         z-index: 23 !important;
     }
+    .show__mobile__btn{
+        position: fixed !important;
+    }
     .show__mobile__btn span{
         background: transparent !important;
         z-index: 22 !important;

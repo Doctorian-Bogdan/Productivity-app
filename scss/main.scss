@@ -210,6 +210,7 @@ header{
   bottom: 0vh;
   left: -6vw;
   animation: fly 55s infinite;
+  transition: .4s;
 }
 .hero__cloud:before{
   content: "";
@@ -278,6 +279,7 @@ header{
   animation: fly3 80s infinite;
   top: 46vh;
   left: -2vw;
+  transition: .4s;
 }
 @keyframes fly3 {
   0%{
@@ -289,6 +291,7 @@ header{
     left: 101vw;
   }
 }
+
 //###HERO###
 
 //###LOGO###
@@ -645,6 +648,9 @@ header{
   float: left;
   box-shadow: 0 15px 100px #E5EBF8;
   border-radius: 5px;
+  &:hover{
+    background: blue;
+  }
 }
 .blog__img_pink{
   height: auto;
@@ -874,7 +880,7 @@ header{
 }
 .faq__ac input:checked ~ label{
   color: #495274;
-  font-weight: 700;
+  text-shadow: 0 0 2px #495274;
   transition: .2s
 }
 .faq__ac input:checked ~ label svg{
